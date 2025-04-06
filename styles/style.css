@@ -1,1 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background: url(/assets/background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+    height: 130vh;
+    z-index: 1;
+}
+
+.nav {
+    width: 5.5px;
+    height: 20vh;
+}
+
+.logo {
+    width: 10%;
+    height: 10vh;
+}
+.logo img {
+    margin-left: 5%;
+}
+
+.home {
+    width: 10%;
+    text-align: center;
+}
+.home a {
+    position: relative;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+}
+.home a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #003AC1;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+.home a:hover::after {
+    transform: scaleX(1);
+}
+
+.whoweare{
+    width: 10%;
+    text-align: center;
+}
+.whoweare a{
+    position: relative;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+}
+.whoweare a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #003AC1;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+.whoweare a:hover::after {
+    transform: scaleX(1);
+}
+
+.contact {
+    width: 10%;
+    text-align: center;
+}
+.contact a {
+    position: relative;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+}
+.contact a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #003AC1;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+.contact a:hover::after {
+    transform: scaleX(1);
+}
+
+.register {
+    width: 15%;
+    text-align: center;
+}
+.register button {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-size: 1em;
+    color: #fff;
+    background: #003AC1;
+    box-shadow: 0 0 5px #003AC1,
+    0 0 25px #003AC1
+}
+.register button:hover {
+    box-shadow: 0 0 5px #003AC1,
+    0 0 25px #003AC1, 0 0 50px #003AC1,
+    0 0 100px #003AC1, 0 0 200px #003AC1;
+}
+
+.celula {
+    height: 10vh;
+}
+
+.effect-text{
+    height: 40vh;
+}
+.effect-text p{
+    margin-top: -7%;
+    font-size: 1.8em;
+    margin-left: 10%;
+    color: #fff;
+}
+#search {
+    font-weight: 300;
+    padding-left: 2%;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: none;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    top: 10%;
+    margin-left: 10%;
+    color: #fff;
+}
+#search::placeholder {
+    padding-left: 5%;
+    font-size: 1em;
+    color: #fff;
+}
+.effect-text img {
+    position: relative;
+    top: 13%;
+    right: 5%;
+}
+
+.post {
+    width: 15%;
+}
+.retangulo {
+    border: 2px solid #fff;
+    margin-left: 10%;
+    background: #003AC1;
+    width: 300px;
+    height: 370px;
+}
+.line {
+    margin-left: 3%;
+    position: absolute;
+    bottom: 30%;
+    width: 302px;
+    height: 2px;
+    background: #fff;
+}
+.retangulo p {
+    color: #fff;
+    margin-top: 16%;
+    margin-left: 10%;
+}
+.retangulo img {
+    padding-top: 30px;
+    margin-left: 15%;
+}
+
+.mouse {
+    width: 10%;
+    background: #003AC1;
+    height: 10vh;
+}
+#mouse {
+    margin-left: 35%;
+}
+.keyboard {
+    width: 10%;
+    background: #003AC1;
+    height: 10vh;
+}
+#keyboard {
+    margin-left: 15%;
+}
+.cabinet {
+    width: 10%;
+    background: #003AC1;
+    height: 10vh;
+}
+#cabinet {
+    margin-left: 10%;
+}
+.headset {
+    width: 10%;
+    background: #003AC1;
+    height: 10vh;
+}
+#headset {
+    margin-left: 10%;
+}
+
+.monitor {
+    width: 10%;
+    background: #003AC1;
+    height: 10vh;
+}
+#monitor {
+    margin-left: 25%;
+}
 
